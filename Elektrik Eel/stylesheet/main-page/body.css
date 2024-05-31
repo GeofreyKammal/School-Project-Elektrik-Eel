@@ -1,0 +1,889 @@
+.background-colour{
+  height: 106%;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(#010101,#923358,#C70039,#F94C10,#F8DE22);
+  /* background-color: black; */
+}
+
+
+.section-1{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 80px;
+}
+.image-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.date-container-left{
+  margin-left: 60px;
+  color: #efefef;
+}
+.date-text-left{
+  writing-mode: vertical-rl;
+  rotate: 180deg;
+  font-family: "black ops one";
+  font-size: 52px;
+}
+
+/* .date-container-left{
+  font-family: "black ops one";
+  color: #efefef;
+  margin-top: 60px;
+  rotate: -90deg;
+  font-size: 52px;
+  white-space: nowrap;
+  width: 20%;
+} */
+
+.photo-container{
+  display: flex;
+  flex-direction: column;
+
+}
+.mainImg-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-image{
+  width: 100%;
+  flex: 1;
+  border-radius: 8px 8px 0 0;
+  filter: blur(2px);
+}
+.image-text{
+  position: absolute;
+  color: white;
+  width: 700px;
+  font-family: "black ops one";
+  font-size: 52px;
+  color: #EF3636;
+  text-align: center;
+}
+
+.date-container-right{
+  margin-right: 60px;
+  color: #efefef;
+}
+.date-text-right{
+  writing-mode: vertical-lr;
+  font-family: "black ops one";
+  font-size: 52px;
+
+}
+
+
+/* .date-container-right{
+  font-family: "black ops one";
+  color: #efefef;
+  margin-top: 60px;
+  rotate: 90deg;
+  font-size: 52px;
+  white-space: nowrap;
+  width: 20%;
+} */
+
+.second-image{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 24px;
+  transition: 1s;
+}
+.second-image:hover{
+  padding: 20px 20px 20px 20px;
+}
+
+.location-container{
+  display: flex;
+  justify-content: center;
+}
+.location-text{
+  font-family: "black ops one";
+  font-size: 48px;
+  color: #efefef;
+  margin-top: 24px;
+}
+
+.section-2{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 80px;
+}
+
+.lineup-button{
+  margin-top: 72px;
+  border: none;
+  border-radius: 16px;
+  background-color: #900C3F;
+  font-family: honk;
+  font-size: 64px;
+  width: 498px;
+  height: 114px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 50%);
+  cursor: pointer;
+  transition: 0.4s;
+}
+.lineup-button:hover{
+  opacity: 60%;
+}
+
+.section-2a{
+  position: relative;
+  top: 80px;
+  margin-top: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.countdown-image{
+  width: 100%;
+  opacity: 30%;
+}
+.countBox-container{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 854px;
+  align-items: center;
+}
+
+.countdownText-container{
+  width: 469px;
+}
+.countdown-text{
+  font-family: "black ops one";
+  font-size: 36px;
+  color: #efefef;
+  text-align: center;
+}
+
+.countNumber-container{
+  display: flex;
+  flex-direction: row;
+  width: 726px;
+  padding-left: 65px;
+  padding-right: 65px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: space-between;
+}
+.countNumber-container{
+  background-color: #923358;
+  border-radius: 80px;
+  box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.50);
+  margin-top: 20px;
+}
+
+/* .days, .hours, .minutes, .seconds{
+  font-family: "black ops one";
+  color: #efefef;
+  font-size: 84px;
+} */
+
+.number-text{
+  font-family: "black ops one";
+  color: #efefef;
+  font-size: 84px;
+}
+
+.colon-container{
+  color: white;
+  font-family: "roboto";
+  font-size: 84px;
+}
+
+.day-text{
+  font-family: "roboto";
+  color: #efefef;
+  font-size: 24px;
+  text-align: center;
+}
+
+
+.section-3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 80px;
+  margin-top: 68px;
+}
+.aftermovie-text{
+  font-family: "black ops one";
+  color: #efefef;
+  font-size: 48px;
+  margin-bottom: 8px;
+}
+
+.aftermovie-container{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aftermovie-image{
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.play-button{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 200px;
+  border: none;
+  background-color: rgba(249, 76, 16, 0.70);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.play-svg{
+  color: #efefef;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  width: 28px;
+  height: 28px;
+}
+
+/* .play-container{
+  position: absolute;
+}
+.play-container .tooltip{
+  position: absolute;
+  background-color: #969696;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 8px;
+  font-family: "roboto";
+  font-size: 12px;
+  opacity: 1;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+  margin-right: 72px;
+  margin-top: 102px;
+} */
+.play-button:hover{
+  width: 100px;
+  height: 100px;
+}
+/* .play-container:hover .tooltip{
+  opacity: 1;
+} */
+
+
+.background-colour2{
+  background-image:linear-gradient(#F8DE22,#F94C10,#C70039,#923358);
+}
+
+.section-4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.purchase-text{
+  font-family: "black ops one";
+  color: #010101;
+  font-size: 48px;
+  margin-bottom: 48px;
+}
+
+.purchase-container{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: center;
+  gap: 65px;
+}
+
+.ticket1-container, .ticket2-container, .ticket3-container{
+  background-color: #F94C10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 76px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+.ticket1-container,.ticket3-container{
+  margin-top: 120px;
+}
+
+.ticket2-container{
+  margin-bottom: 120px;
+}
+.wrapper-card-category{
+  font-family: "micro 5";
+  color: #efefef;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  margin-bottom: 6px;
+}
+
+.wrapper-top{
+  background-color: #900C3F;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 36px 36px 0 0;
+}
+.card-ticket-title{
+  font-family: "roboto";
+  font-size: 28px;
+  color: #efefef;
+  text-align: center;
+}
+.card-ticket-type{
+  color: #efefef;
+  font-family: "roboto";
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 300;
+}
+.divider{
+  width: 80%;
+}
+.wrapper-bottom{
+  background-color: #900C3F;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0 0 36px 36px;
+  text-align: center;
+}
+.starts-from{
+  color: #efefef;
+  font-family: "roboto";
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.price{
+  margin-top: 20px;
+}
+.price-currency{
+  color: #efefef;
+  font-family: "roboto";
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+.price-value{
+  color: #efefef;
+  font-family: "roboto";
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.buyticket-btn{
+  border: none;
+  font-family: "black ops one";
+  font-size: 24px;
+  color: #F94C10;
+  background-color: #efefef;
+  border-radius: 36px;
+  width: 80%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 32px;
+  margin-top: 12px;
+  transition: 0.8s;
+  cursor: pointer;
+}
+.buyticket-btn:hover{
+  background-color: #900C3F;
+  color: #efefef;
+}
+
+.purchase-notes{
+  color: #efefef;
+  font-size: 14px;
+  font-family: "roboto";
+  opacity: 80%;
+  margin-top: 52px;
+}
+
+.section-5{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.merchandise-text-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.merchandise-text{
+  display: flex;
+  color: #efefef;
+  font-family: "black ops one";
+  font-size: 48px;
+  margin-top: 92px;
+  gap: 12px;
+}
+.shop-svg{
+  display: flex;
+  height: 48px;
+}
+
+.merchandise-container{
+  display: flex;
+  flex-direction: row;
+  margin-left: 60px;
+  margin-right: 60px;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 48px;
+}
+.merchandise1-container, .merchandise2-container, .merchandise3-container{
+  background-color: #efefef;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.merchandise-image{
+  border-radius: 12px 12px 0 0;
+  width: 100%;
+}
+
+.merchandise-info-container{
+  display: flex;
+  flex-direction: row;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.product-name{
+  font-family: "black ops one";
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+.product-desc{
+  margin-bottom: 8px;
+  font-family: "roboto";
+  font-size: 12px;
+  width: 85%;
+}
+.product-price{
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  gap: 32px;
+}
+.product-value{
+  font-family: "black ops one";
+  font-size: 32px;
+  text-align: center;
+}
+.purchase-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "micro 5";
+  font-size: 20px;
+  background-color: #900C3F;
+  color: #efefef;
+  border: none;
+  gap: 8px;
+  padding: 8px 6px 8px 6px;
+  width: 123px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+.purchase-btn:hover{
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.section-6{
+  margin-top: 112px;
+  display: flex;
+  flex-direction: column;
+}
+.get-there-text{
+  color: #efefef;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 52px;
+  font-family: "black ops one";
+  font-size: 32px;
+}
+.map-container{
+  display: flex;
+  flex-direction: row;
+  background: none;
+  gap: 24px;
+}
+.australia-svg{
+  width: 40%;
+  margin-left: 60px;
+}
+.map-text{
+  color: #efefef;
+  font-family: "black ops one";
+  font-size: 32px;
+}
+.map-text-container{
+  margin-left: 60px;
+}
+.google-map{
+  margin-top: 32px;
+  border: none;
+}
+
+.background-colour3{
+  background-image: linear-gradient(#923358,#C70039,#F94C10,#F8DE22);
+}
+
+.section-7{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.package-text{
+  font-family: "black ops one";
+  color: #efefef;
+  font-size: 48px;
+  margin-bottom: 48px;
+}
+
+.package-container{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: center;
+  gap: 120px;
+}
+
+.package1-container, .package2-container, .package3-container{
+  background-color: #69955A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 76px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.package-wrapper-top{
+  background-color: #69785D;
+  font-family: "roboto";
+  color: #efefef;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 32px;
+  width: 80%;
+  border-radius: 36px 36px 0 0;
+}
+.package-type{
+  font-size: 24px;
+  text-align: center;
+  font-weight: 400;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.package-desc{
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.package-divider-svg{
+  width: 80%;
+}
+.package-wrapper-bottom{
+  background-color: #69785D;
+  width: 80%;
+  border-radius: 0 0 36px 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.starts-from-package{
+  color: #efefef;
+  font-family: "roboto";
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.price-currency-package{
+  color: #efefef;
+  font-family: "roboto";
+  margin-bottom: 8px;
+  font-weight: 300;
+}
+.price-value-package{
+  color: #efefef;
+  font-family: "roboto";
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.learnMore-btn{
+  margin-top: 12px;
+  margin-bottom: 24px;
+  width: 80%;
+  font-family: "black ops one";
+  font-size: 24px;
+  color: #69785D;
+  border: none;
+  border-radius: 36px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  transition: 0.8s;
+  cursor: pointer;
+}
+.learnMore-btn:hover{
+  background-color: #69785D;
+  color: #efefef;
+}
+
+.section-8{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 92px;
+}
+.sponsor-text{
+  position: absolute;
+  font-family: "black ops one";
+  color: #efefef;
+  font-size: 32px;
+  top: -12px;
+}
+
+hr.footer-divider{
+  border-top: 1px solid #efefef;
+}
+.section-9{
+  margin-top: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-container{
+  display: flex;
+  flex-direction: row;
+  margin-left: 60px;
+}
+.left-footer{
+  display: flex;
+  flex-direction: column;
+}
+.upper-left-container{
+  display: flex;
+  flex-direction: row;
+  gap: 72px;
+}
+
+.socmed-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+  margin-top: 160px;
+}
+.socmed-svg{
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.socmed-svg:hover{
+  width: 36px;
+  height: 36px;
+}
+.instagram-container,
+.facebook-container,
+.youtube-container
+.tiktok-container,
+.twitter-container{
+  position: relative;
+}
+.instagram-container .tooltip,
+.facebook-container .tooltip,
+.youtube-container .tooltip,
+.tiktok-container .tooltip,
+.twitter-container .tooltip{
+  position: absolute;
+  background-color: #969696;
+  color: #efefef;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 4px;
+  font-size: 10px;
+  font-family: "roboto";
+  /* bottom: -20px; */
+  left: -13px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.youtube-container .tooltip{
+  left: 12.9%;
+}
+.tiktok-container .tooltip{
+  left: 17.5%;
+}
+.twitter-container .tooltip{
+  left: 14%;
+}
+
+.instagram-container:hover .tooltip,
+.facebook-container:hover .tooltip,
+.youtube-container:hover .tooltip,
+.tiktok-container:hover .tooltip,
+.twitter-container:hover .tooltip{
+  opacity: 0.8;
+}
+
+.product-container, .company-container, .support-container{
+  display: flex;
+  flex-direction: column;
+}
+.product-text, .company-text, .support-text{
+  font-family: "black ops one";
+  color: #efefef;
+}
+
+
+.product-option, .company-option, .support-option{
+  border: none;
+  text-align: start;
+  margin-top: 12px;
+  background: none;
+  font-family: "roboto";
+  font-weight: 300;
+  font-size: 14px;
+  color: #efefef;
+  padding-left: 0;
+  cursor: pointer;
+}
+.product-option:hover, .company-option:hover, .support-option:hover{
+  text-decoration: underline;
+}
+
+.subscribe-container{
+  display: flex;
+  flex-direction: column;
+  margin-right: 60px;
+  width: 28%;
+}
+.subscribe-text{
+  font-family: "black ops one";
+  color: #efefef;
+  margin-bottom: 40px;
+}
+.subscribe-desc{
+  font-family: "roboto";
+  font-size: 14px;
+  color: #efefef;
+  margin-bottom: 12px;
+  width: 70%;
+}
+.email-input{
+  border: none;
+  margin-bottom: 12px;
+  font-family: "black ops one";
+  color: #6F6C90;
+  border-radius: 108px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 20px;
+  transition: 0.6s;
+}
+.email-input:hover{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.email-input:focus{
+  outline: none;
+  box-shadow: inset 0px 1px 8px rgba(0, 0, 0, 0.4);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "roboto";
+}
+
+
+.subscribe-button{
+  border: none;
+  border-radius: 76px;
+  background-color: #900C3F;
+  color: #efefef;
+  font-family: "black ops one";
+  font-size: 16px;
+  width: 34%;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 12px;
+  padding-right: 12px;
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  transition: 0.6s;
+  cursor: pointer;
+}
+.subscribe-button:hover{
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 14px;
+  padding-right: 14px;
+  transition: 0.4s;
+}
+.subscribe-button:active{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 8px;
+  width: 20%;
+}
+
+hr.close-line{
+  margin-top: 40px;
+  margin-bottom: 24px;
+  border-top: 1px solid #efefef;
+  width: 90%;
+}
+.copyright-text{
+  color: #efefef;
+  margin-left: 60px;
+  font-family: "roboto";
+  font-size: 12px;
+  opacity: 70%;
+  padding-bottom: 24px;
+}

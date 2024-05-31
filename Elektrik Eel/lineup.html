@@ -1,0 +1,516 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lineup</title>
+
+  <!--Style sheets-->
+  <link rel="stylesheet" href="stylesheet/line-up/body.css">
+  <link rel="stylesheet" href="stylesheet/line-up/header.css">
+  <link rel="stylesheet" href="stylesheet/general.css">
+  <!--End of Style sheets-->
+
+
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Honk&family=Micro+5&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Micro+5&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Honk&family=Micro+5&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <!--End of Fonts-->
+
+  <!-- I didn't use any jQuery and I have asked if I could use normal javascript instead and it is allowed.
+  I hope this didn't affect my marking. Thank you very much! -->
+  
+</head>
+<body>
+  <div class="backgroundColour">
+    <header>
+      <div class="header">
+        <div class="title-container">
+          <p class="title-char">ELEKTRIK EEL FESTIVAL</p>
+        </div>
+        <div class="navbar-container">
+          <a href="./index.html">
+            <button class="home-button">HOME</button>
+          </a>
+          <a href="./index.html" onclick="scrollPackage()">
+            <button  class="package-button">TRAVEL PACKAGES</button>
+            <script>
+              function scrollPackage() {
+                window.scrollTo(0, 4650);
+              }
+            </script>
+          </a>
+          <button class="lineup-button" onclick="scrollLineup">LINE UP</button>
+          <script>
+            function scrollLineup() {
+              window.scrollTo(0, 0);
+            }
+          </script>
+          
+          <button class="news-button">NEWS</button>
+          <button class="about-button">ABOUT US</button>
+          <button class="faq-button">FAQ</button>
+        </div>
+        <div class="ticket-container">
+          <button class="ticket-button">TICKET <img class="ticket-svg" src="vector/Ticket.svg" alt="ticket icon"></button>
+          <button data-hamburger-target="#hamburger" class="hamburger-button">
+            <img class="hamburger-svg" src="vector/hamburger.svg">
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section class="line-up">
+      <div class="lineup-text-container">
+        <img class="lightning-svg" src="vector/lightning.svg">
+        <p class="lineup-text">LINE UP</p>
+        <img class="lightning-svg" src="vector/lightning.svg">
+      </div>
+      <p class="alphabet">IN ALPHABETICAL ORDER</p>
+
+
+
+
+
+      <div class="artist-lineup">
+        <div class="artist-container-row">
+
+          <div data-target="#modal1" class="artist-container">
+            <img class="artist-profile" src="Picture/artist/Ellipse 4.png">
+            <name class="artist-name">Aforemention (FR)</name>
+          </div>
+
+          <div data-target="#modal2" class="artist-container">
+            <img class="artist-profile" src="Picture/artist/Ellipse 4-1.png">
+            <name class="artist-name">Boris Brejcha (NE)</name>
+          </div>
+
+          <div data-target="#modal3" class="artist-container">
+            <img class="artist-profile" src="Picture/artist/Ellipse 4-2.png">
+            <name class="artist-name">Coerce (AU)</name>
+          </div>
+
+          <div data-target="#modal4" class="artist-container">
+            <img class="artist-profile" src="Picture/artist/Ellipse 4-3.png">
+            <name class="artist-name">DJ Muller (BR)</name>
+          </div>
+
+          <div data-target="#modal5" class="artist-container">
+            <img class="artist-profile" src="Picture/artist/Ellipse 4-4.png">
+            <name class="artist-name">DJ Rekab (UK)</name>
+          </div>
+
+          <div data-target="#modal6" class="artist-container">
+            <img class="artist-profile" src="Picture/artist/Ellipse 4-5.png">
+            <name class="artist-name">Emperors (AU)</name>
+          </div>
+
+          <div data-target="#modal7" class="artist-container">
+            <img class="artist-profile" src="Picture/artist/Ellipse 4-6.png">
+            <name class="artist-name">Femme Fatales (AU)</name>
+          </div>
+
+          <div data-target="#modal8" class="artist-container">
+            <img class="artist-profile" src="Picture/artist/Ellipse 4-7.png">
+            <name class="artist-name">Hawks of Alba (AU)</name>
+          </div>
+
+          <div data-target="#modal9" class="artist-container">
+            <img class="artist-profile" src="Picture/artist/Ellipse 4-10.png">
+            <name class="artist-name">Jock Boyd (AU)</name>
+          </div>
+
+          <div data-target="#modal10" class="artist-container">
+            <img class="artist-profile" src="Picture/artist/Ellipse 4-9.png">
+            <name class="artist-name">Peter McKinnon (EU)</name>
+          </div>
+
+          <div data-target="#modal11" class="artist-container">
+            <img class="artist-profile" src="Picture/artist/Ellipse 4-8.png">
+            <name class="artist-name">The Chevelles (AU)</name>
+          </div>
+
+          <div data-target="#modal12" class="artist-container">
+            <img class="artist-profile" src="Picture/artist/Ellipse 4-11.png">
+            <name class="artist-name">The Thieves (AU)</name>
+          </div>
+        </div>
+
+        <!-- <div class="artist-container-row2">
+          
+        </div>
+
+        <div class="artist-container-row3"> -->
+          
+        </div>
+        <div class="page-divider"></div>
+
+        <hr class="footer-divider">
+
+        <div class="section-9">
+          <div class="footer-container">
+  
+            <div class="left-footer">
+              <div class="upper-left-container">
+                <div class="product-container">
+                  <p class="product-text">Product</p>
+                  <button class="product-option">Features</button>
+                  <button class="product-option">Pricing</button>
+                  <button class="product-option">Case studies</button>
+                  <button class="product-option">Reviews</button>
+                  <button class="product-option">Updates</button>    
+                </div>
+      
+                <div class="company-container">
+                  <p class=company-text>Company</p>
+                  <button class="company-option">About</button>
+                  <button class="company-option">Contact us</button>
+                  <button class="company-option">Careers</button>
+                  <button class="company-option">Culture</button>
+                  <button class="company-option">Blog</button>
+                </div>
+      
+                <div class="support-container">
+                  <p class="support-text">Support</p>
+                  <button class="support-option">Getting started</button>
+                  <button class="support-option">Help center</button>
+                  <button class="support-option">Server status</button>
+                  <button class="support-option">Report a bug</button>
+                  <button class="support-option">Chat support</button>
+                </div>
+              </div>
+  
+              <div class="lower-left-container">
+                <div class="socmed-container">
+                  <div class="instagram-container">
+                    <a href="https://www.instagram.com/" target="_blank">
+                      <img src="vector/instagram.svg" class="socmed-svg" alt="instagram icon">
+                    </a>
+                    <div class="tooltip">Instagram</div>
+                  </div>
+                  <div class="facebook-container">
+                    <a href="https://www.facebook.com/" target="_blank">
+                      <img src="vector/facebook.svg" class="socmed-svg" alt="facebook icon">
+                    </a>
+                    <div class="tooltip">Facebook</div>
+                  </div>
+                  <div class="youtube-container">
+                    <a href="https://www.youtube.com/" target="_blank">
+                      <img src="vector/youtube.svg" class="socmed-svg" alt="youtube-icon">
+                    </a>
+                    <div class="tooltip">Youtube</div>
+                  </div>
+                  <div class="tiktok-container">
+                    <a href="https://www.tiktok.com/" target="_blank">
+                      <img src="vector/tiktok.svg" class="socmed-svg" alt="tiktok icon">
+                    </a>
+                    <div class="tooltip">Tiktok</div>
+                  </div>
+                  <div class="twitter-container">
+                    <a href="https://twitter.com/" target="_blank">
+                      <img src="vector/twitter.svg" class="socmed-svg" alt="twitter icon">
+                    </a>
+                    <div class="tooltip">X</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="subscribe-container">
+            <p class="subscribe-text">Subscribe to our newsletter</p>
+            <p class="subscribe-desc">Subscribe so you won't miss any new information about this event!</p>
+            <input class="email-input" type="email" placeholder="Enter your email">
+            <button class="subscribe-button">Subscribe</button>
+          </div>
+  
+          
+        </div>
+        <hr class="close-line">
+        <p class="copyright-text">Copyright © 2024 ELEKTRIK EEL FESTIVAL</p>  
+      </div>
+    </section>
+  </div>
+
+
+  <div class="hamburger" id="hamburger">
+    <button data-close-hamburger class="close-button-hamburger"><img class="close-hamburger-svg" src="vector/close-burger.svg"></button>
+    <div class="nav-popup">
+      <button id="homeButton" class="nav-hamburger">Home</button>
+      <script type="text/javascript">
+        document.getElementById("homeButton").onclick = function () {
+            location.href = "./index.html";
+        };
+      </script>
+      
+      
+      <button class="nav-hamburger">Travel Packages</button>
+      <button data-close-hamburger id="lineupButton" class="nav-hamburger">Line Up</button>
+      <button class="nav-hamburger">News</button>
+      <button class="nav-hamburger">About us</button>
+      <button class="nav-hamburger">FAQ</button>
+    </div>
+  </div>
+  <script src="hamburger.js"></script>
+  
+  <!-- dari sini -->
+
+  <div class="modal" id="modal1">
+    <div class="upper-popup">
+      <p class="artist-name-popup">Aforemention</p>
+      <img class="artist-profile-popup" src="Picture/artist/Ellipse 4.png">
+      <button data-target="#modal1" class="close-button"><img class="close-svg" src="vector/close.svg"></button>
+    </div>
+    <div class="middle-popup">
+      <p class="artist-desc-popup">
+        Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+    </div>
+    <div class="lower-popup">
+      <img class="socmed-icon-popup" src="vector/instagram-popup.svg">
+      <img class="socmed-icon-popup" src="vector/youtube-popup.svg">
+      <img class="socmed-icon-popup" src="vector/facebook-popup.svg">
+      <img class="socmed-icon-popup" src="vector/twitter-popup.svg">
+      <img class="socmed-icon-popup" src="vector/spotify-popup.svg">
+    </div>
+  </div>
+  <div class="overlay" id="overlay"></div>
+
+
+  <div class="modal" id="modal2">
+    <div class="upper-popup">
+      <p class="artist-name-popup">Boris Brejcha</p>
+      <img class="artist-profile-popup" src="Picture/artist/Ellipse 4-1.png">
+      <button data-target="#modal2" class="close-button"><img class="close-svg" src="vector/close.svg"></button>
+    </div>
+    <div class="middle-popup">
+      <p class="artist-desc-popup">
+        Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+    </div>
+    <div class="lower-popup">
+      <img class="socmed-icon-popup" src="vector/instagram-popup.svg">
+      <img class="socmed-icon-popup" src="vector/youtube-popup.svg">
+      <img class="socmed-icon-popup" src="vector/facebook-popup.svg">
+      <img class="socmed-icon-popup" src="vector/twitter-popup.svg">
+      <img class="socmed-icon-popup" src="vector/spotify-popup.svg">
+    </div>
+  </div>
+  <div class="overlay" id="overlay"></div>
+
+  <div class="modal" id="modal3">
+    <div class="upper-popup">
+      <p class="artist-name-popup">Coerce</p>
+      <img class="artist-profile-popup" src="Picture/artist/Ellipse 4-2.png">
+      <button data-target="#modal3" class="close-button"><img class="close-svg" src="vector/close.svg"></button>
+    </div>
+    <div class="middle-popup">
+      <p class="artist-desc-popup">
+        Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+    </div>
+    <div class="lower-popup">
+      <img class="socmed-icon-popup" src="vector/instagram-popup.svg">
+      <img class="socmed-icon-popup" src="vector/youtube-popup.svg">
+      <img class="socmed-icon-popup" src="vector/facebook-popup.svg">
+      <img class="socmed-icon-popup" src="vector/twitter-popup.svg">
+      <img class="socmed-icon-popup" src="vector/spotify-popup.svg">
+    </div>
+  </div>
+  <div class="overlay" id="overlay"></div>
+
+  <div class="modal" id="modal4">
+    <div class="upper-popup">
+      <p class="artist-name-popup">Dj Muller</p>
+      <img class="artist-profile-popup" src="Picture/artist/Ellipse 4-3.png">
+      <button data-target="#modal4" class="close-button"><img class="close-svg" src="vector/close.svg"></button>
+    </div>
+    <div class="middle-popup">
+      <p class="artist-desc-popup">
+        Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+    </div>
+    <div class="lower-popup">
+      <img class="socmed-icon-popup" src="vector/instagram-popup.svg">
+      <img class="socmed-icon-popup" src="vector/youtube-popup.svg">
+      <img class="socmed-icon-popup" src="vector/facebook-popup.svg">
+      <img class="socmed-icon-popup" src="vector/twitter-popup.svg">
+      <img class="socmed-icon-popup" src="vector/spotify-popup.svg">
+    </div>
+  </div>
+  <div class="overlay" id="overlay"></div>
+
+  <div class="modal" id="modal5">
+    <div class="upper-popup">
+      <p class="artist-name-popup">DJ Rekab</p>
+      <img class="artist-profile-popup" src="Picture/artist/Ellipse 4-4.png">
+      <button data-target="#modal5" class="close-button"><img class="close-svg" src="vector/close.svg"></button>
+    </div>
+    <div class="middle-popup">
+      <p class="artist-desc-popup">
+        Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+    </div>
+    <div class="lower-popup">
+      <img class="socmed-icon-popup" src="vector/instagram-popup.svg">
+      <img class="socmed-icon-popup" src="vector/youtube-popup.svg">
+      <img class="socmed-icon-popup" src="vector/facebook-popup.svg">
+      <img class="socmed-icon-popup" src="vector/twitter-popup.svg">
+      <img class="socmed-icon-popup" src="vector/spotify-popup.svg">
+    </div>
+  </div>
+  <div class="overlay" id="overlay"></div>
+  
+  <div class="modal" id="modal6">
+    <div class="upper-popup">
+      <p class="artist-name-popup">Emperors</p>
+      <img class="artist-profile-popup" src="Picture/artist/Ellipse 4-5.png">
+      <button data-target="#modal6" class="close-button"><img class="close-svg" src="vector/close.svg"></button>
+    </div>
+    <div class="middle-popup">
+      <p class="artist-desc-popup">
+        Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+    </div>
+    <div class="lower-popup">
+      <img class="socmed-icon-popup" src="vector/instagram-popup.svg">
+      <img class="socmed-icon-popup" src="vector/youtube-popup.svg">
+      <img class="socmed-icon-popup" src="vector/facebook-popup.svg">
+      <img class="socmed-icon-popup" src="vector/twitter-popup.svg">
+      <img class="socmed-icon-popup" src="vector/spotify-popup.svg">
+    </div>
+  </div>
+  <div class="overlay" id="overlay"></div>
+
+  <div class="modal" id="modal7">
+    <div class="upper-popup">
+      <p class="artist-name-popup">Femme Fatales</p>
+      <img class="artist-profile-popup" src="Picture/artist/Ellipse 4-6.png">
+      <button data-target="#modal7" class="close-button"><img class="close-svg" src="vector/close.svg"></button>
+    </div>
+    <div class="middle-popup">
+      <p class="artist-desc-popup">
+        Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+    </div>
+    <div class="lower-popup">
+      <img class="socmed-icon-popup" src="vector/instagram-popup.svg">
+      <img class="socmed-icon-popup" src="vector/youtube-popup.svg">
+      <img class="socmed-icon-popup" src="vector/facebook-popup.svg">
+      <img class="socmed-icon-popup" src="vector/twitter-popup.svg">
+      <img class="socmed-icon-popup" src="vector/spotify-popup.svg">
+    </div>
+  </div>
+  <div class="overlay" id="overlay"></div>
+
+  <div class="modal" id="modal8">
+    <div class="upper-popup">
+      <p class="artist-name-popup">Hawks of Alba</p>
+      <img class="artist-profile-popup" src="Picture/artist/Ellipse 4-7.png">
+      <button data-target="#modal8" class="close-button"><img class="close-svg" src="vector/close.svg"></button>
+    </div>
+    <div class="middle-popup">
+      <p class="artist-desc-popup">
+        Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+    </div>
+    <div class="lower-popup">
+      <img class="socmed-icon-popup" src="vector/instagram-popup.svg">
+      <img class="socmed-icon-popup" src="vector/youtube-popup.svg">
+      <img class="socmed-icon-popup" src="vector/facebook-popup.svg">
+      <img class="socmed-icon-popup" src="vector/twitter-popup.svg">
+      <img class="socmed-icon-popup" src="vector/spotify-popup.svg">
+    </div>
+  </div>
+  <div class="overlay" id="overlay"></div>
+
+  <div class="modal" id="modal9">
+    <div class="upper-popup">
+      <p class="artist-name-popup">Jock Boyd</p>
+      <img class="artist-profile-popup" src="Picture/artist/Ellipse 4-10.png">
+      <button data-target="#modal9" class="close-button"><img class="close-svg" src="vector/close.svg"></button>
+    </div>
+    <div class="middle-popup">
+      <p class="artist-desc-popup">
+        Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+    </div>
+    <div class="lower-popup">
+      <img class="socmed-icon-popup" src="vector/instagram-popup.svg">
+      <img class="socmed-icon-popup" src="vector/youtube-popup.svg">
+      <img class="socmed-icon-popup" src="vector/facebook-popup.svg">
+      <img class="socmed-icon-popup" src="vector/twitter-popup.svg">
+      <img class="socmed-icon-popup" src="vector/spotify-popup.svg">
+    </div>
+  </div>
+  <div class="overlay" id="overlay"></div>
+
+  <div class="modal" id="modal10">
+    <div class="upper-popup">
+      <p class="artist-name-popup">Peter McKinnon</p>
+      <img class="artist-profile-popup" src="Picture/artist/Ellipse 4-9.png">
+      <button data-target="#modal10" class="close-button"><img class="close-svg" src="vector/close.svg"></button>
+    </div>
+    <div class="middle-popup">
+      <p class="artist-desc-popup">
+        Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+    </div>
+    <div class="lower-popup">
+      <img class="socmed-icon-popup" src="vector/instagram-popup.svg">
+      <img class="socmed-icon-popup" src="vector/youtube-popup.svg">
+      <img class="socmed-icon-popup" src="vector/facebook-popup.svg">
+      <img class="socmed-icon-popup" src="vector/twitter-popup.svg">
+      <img class="socmed-icon-popup" src="vector/spotify-popup.svg">
+    </div>
+  </div>
+  <div class="overlay" id="overlay"></div>
+
+  <div class="modal" id="modal11">
+    <div class="upper-popup">
+      <p class="artist-name-popup">The Chevelles</p>
+      <img class="artist-profile-popup" src="Picture/artist/Ellipse 4-8.png">
+      <button data-target="#modal11" class="close-button"><img class="close-svg" src="vector/close.svg"></button>
+    </div>
+    <div class="middle-popup">
+      <p class="artist-desc-popup">
+        Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+    </div>
+    <div class="lower-popup">
+      <img class="socmed-icon-popup" src="vector/instagram-popup.svg">
+      <img class="socmed-icon-popup" src="vector/youtube-popup.svg">
+      <img class="socmed-icon-popup" src="vector/facebook-popup.svg">
+      <img class="socmed-icon-popup" src="vector/twitter-popup.svg">
+      <img class="socmed-icon-popup" src="vector/spotify-popup.svg">
+    </div>
+  </div>
+  <div class="overlay" id="overlay"></div>
+
+  <div class="modal" id="modal12">
+    <div class="upper-popup">
+      <p class="artist-name-popup">The Thieves</p>
+      <img class="artist-profile-popup" src="Picture/artist/Ellipse 4-11.png">
+      <button data-target="#modal12" class="close-button"><img class="close-svg" src="vector/close.svg"></button>
+    </div>
+    <div class="middle-popup">
+      <p class="artist-desc-popup">
+        Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+    </div>
+    <div class="lower-popup">
+      <img class="socmed-icon-popup" src="vector/instagram-popup.svg">
+      <img class="socmed-icon-popup" src="vector/youtube-popup.svg">
+      <img class="socmed-icon-popup" src="vector/facebook-popup.svg">
+      <img class="socmed-icon-popup" src="vector/twitter-popup.svg">
+      <img class="socmed-icon-popup" src="vector/spotify-popup.svg">
+    </div>
+  </div>
+  <div class="overlay" id="overlay"></div>
+
+  <script src="pop-up.js"></script>
+
+  <!-- sampe sini -->
+
+</body>
+</html>

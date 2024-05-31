@@ -1,0 +1,479 @@
+.backgroundColour{
+  height: 110%;
+  background-image: linear-gradient(#010101,#923358,#C70039,#F94C10,#F8DE22);
+  /* background-color: black; */
+}
+
+.line-up{
+  position :relative;
+  top: 13.6vh;
+}
+.lineup-text-container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 8vh;
+  justify-content: center;
+}
+@media (max-width: 992px) {
+  .lineup-text-container{
+    margin-top: 2vh;
+  }
+}
+.lineup-text{
+  font-family: "black ops one";
+  color: #efefef;
+  font-size: 1.5em;
+  letter-spacing: 0.5em;
+  margin-left: 1em;
+  margin-right:  0.5em;
+}
+.lightning-svg{
+  width: 12px;
+}
+
+.alphabet{
+  display: flex;
+  justify-content: center;
+  margin-top: 9.5vh;
+  color: #efefef;
+  margin-bottom: 5em;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+
+.artist-container-row{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 3.75em;
+  margin-right: 3.75em;
+  gap: 1em;
+}
+/* .artist-container-row2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 3.75em;
+  margin-right: 3.75em;
+  gap: 1.25em;
+}
+.artist-container-row3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 3.75em;
+  margin-right: 3.75em;
+  gap: 1.25em;
+} */
+
+@media (max-width: 992px){
+ .artist-container-row{
+  grid-template-columns: 1fr 1fr 1fr;
+ }
+}
+@media (max-width: 768px){
+  .artist-container-row{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.artist-container{
+  display: flex;
+  flex-direction: column;
+  gap: 1.25em;
+  margin-bottom: 2.5em;
+  align-items: center;
+  cursor: pointer;
+}
+.artist-name{
+  text-align: center;
+  color: #efefef;
+  font-size: 1em;
+  font-weight: 600;
+  text-wrap: nowrap;
+}
+@media (max-width: 768px) {
+  .artist-name{
+    font-size: 0.75em;
+  }
+}
+.artist-profile{
+  width: 85%;
+}
+
+
+/* dari sini */
+
+dialog::backdrop{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal{
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  background-color: #69955A;
+  border-radius: 0.75em;
+  border: none;
+  padding-left: 2em;  
+  padding-right: 2em;
+  padding-top: 2em;
+  z-index: 10;
+  width: 68vw;
+  max-width: 70%;
+  top: -100%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  transition: 0.5s ease-in-out;
+}
+
+.modal.active{
+  transform: translate(-50%,-50%);
+  top: 56%;
+}
+
+
+
+.upper-popup{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-bottom: 8vh;
+  justify-content: space-between;
+}
+.artist-name-popup{
+  color: #efefef;
+  font-size: 1.25em;
+} 
+.artist-profile-popup{
+  width: 20vw;
+  max-width: 30%;
+}
+.close-button{
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  background: none;
+  border: none;
+}
+.close-svg{
+  width: 2em;
+  cursor: pointer;
+}
+.artist-desc-popup{
+  font-size: 0.875em;
+  font-family: "roboto";
+  font-weight: 300;
+  color: #efefef;
+}
+.lower-popup{
+  display: flex;
+  flex-direction: row;
+  margin-top: 8vh;
+  margin-bottom: 4vh;
+  gap: 1.5vw;  
+}
+.socmed-icon-popup{
+  width: 1.5em;
+  cursor: pointer;
+}
+
+
+#overlay{
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+#overlay.active{
+  opacity: 1;
+  pointer-events: all;
+}
+
+
+@media (max-width: 992px) {
+  .modal{
+    top: -100%;
+  }
+  .artist-name-popup{
+    font-size: 0.75em;
+  }
+  .artist-desc-popup{
+    font-size: 0.75em;
+  }
+  .socmed-icon-popup{
+    width: 1.25em;
+  }
+}
+
+/* sampaii sini */
+
+
+hr.footer-divider{
+  margin-top: 20vh;
+  border-top: 1px solid #efefef;
+  opacity: 30%;
+}
+.section-9{
+  margin-top: 8.2vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 992px) {
+  .section-9{
+    flex-direction: column;
+  }
+  .lower-left-container{
+    display: none;
+  }
+  hr.footer-divider{
+    margin-top: 8vh;
+  }
+}
+
+.footer-container{
+  display: flex;
+  flex-direction: row;
+  margin-left: 3.75em;
+}
+.left-footer{
+  display: flex;
+  flex-direction: column;
+}
+.upper-left-container{
+  display: flex;
+  flex-direction: row;
+  gap: 4.5em;
+}
+
+@media (max-width: 992px){
+  .upper-left-container{
+    display: none;
+  }
+  .tooltip{
+    display: none;
+  }
+}
+
+.socmed-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5em;
+  margin-top: 10em;
+}
+.socmed-svg{
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.socmed-svg:hover{
+  width: 36px;
+  height: 36px;
+}
+
+@media (max-width: 992px){
+  .socmed-svg{
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.instagram-container,
+.facebook-container,
+.youtube-container
+.tiktok-container,
+.twitter-container{
+  position: relative;
+}
+.instagram-container .tooltip,
+.facebook-container .tooltip,
+.youtube-container .tooltip,
+.tiktok-container .tooltip,
+.twitter-container .tooltip{
+  position: absolute;
+  background-color: #969696;
+  color: #efefef;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 4px;
+  font-size: 0.625em;
+  font-family: "roboto";
+  /* bottom: -20px; */
+  left: -13px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.youtube-container .tooltip{
+  left: 12.9%;
+}
+.tiktok-container .tooltip{
+  left: 17.5%;
+}
+.twitter-container .tooltip{
+  left: 14%;
+}
+
+.instagram-container:hover .tooltip,
+.facebook-container:hover .tooltip,
+.youtube-container:hover .tooltip,
+.tiktok-container:hover .tooltip,
+.twitter-container:hover .tooltip{
+  opacity: 0.8;
+}
+
+.product-container, .company-container, .support-container{
+  display: flex;
+  flex-direction: column;
+}
+.product-text, .company-text, .support-text{
+  font-family: "black ops one";
+  color: #efefef;
+}
+
+
+.product-option, .company-option, .support-option{
+  border: none;
+  text-align: start;
+  margin-top: 0.75em;
+  background: none;
+  font-family: "roboto";
+  font-weight: 300;
+  font-size: 0.875em;
+  color: #efefef;
+  padding-left: 0;
+  cursor: pointer;
+}
+.product-option:hover, .company-option:hover, .support-option:hover{
+  text-decoration: underline;
+}
+
+.subscribe-container{
+  display: flex;
+  flex-direction: column;
+  margin-right: 3.75em;
+  width: 28%;
+}
+.subscribe-text{
+  font-family: "black ops one";
+  font-size: 1em;
+  color: #efefef;
+  margin-bottom: 2.5em;
+}
+.subscribe-desc{
+  font-family: "roboto";
+  font-size: 0.875em;
+  color: #efefef;
+  margin-bottom: 0.75em;
+  width: 70%;
+}
+.email-input{
+  border: none;
+  margin-bottom: 0.75em;
+  font-family: "black ops one";
+  color: #6F6C90;
+  border-radius: 6.75em;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 20px;
+  transition: 0.6s;
+}
+.email-input:hover{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.email-input:focus{
+  outline: none;
+  box-shadow: inset 0px 1px 8px rgba(0, 0, 0, 0.4);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "roboto";
+}
+@media (max-width: 992px) {
+  .subscribe-container{
+    width: 100%;
+  }
+  .email-input{
+    font-size: 0.75em;
+    padding-left: 12px;
+    width: 50%;
+  }
+  .subscribe-desc{
+    font-size: 0.75em;
+  }
+  .subscribe-text{
+    font-size: 0.8125em;
+  }
+  .section-9{
+    margin-left: 2em;
+  }
+}
+
+
+.subscribe-button{
+  border: none;
+  border-radius: 76px;
+  background-color: #900C3F;
+  color: #efefef;
+  font-family: "black ops one";
+  font-size: 1em;
+  width: 1%;
+  padding-top: 0.875em;
+  padding-bottom: 0.875em;
+  padding-left: 0.75em;
+  padding-right: 6.5em;
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  transition: 0.6s;
+  cursor: pointer;
+}
+.subscribe-button:hover{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 0.875em;
+  padding-right: 6.625em;
+  transition: 0.1s;
+}
+.subscribe-button:active{
+  transform: scale(0.6);
+}
+@media (max-width: 992px){
+  .subscribe-button{
+    font-size: 0.75em;
+    align-items: center;
+    width: 1%;
+  }
+  .subscribe-desc{
+    width: 50%;
+  }
+}
+
+hr.close-line{
+  margin-top: 40px;
+  margin-bottom: 24px;
+  border-top: 1px solid #efefef;
+  width: 90%;
+}
+.copyright-text{
+  color: #efefef;
+  margin-left: 3.75em;
+  font-family: "roboto";
+  font-size: 0.75em;
+  opacity: 70%;
+  padding-bottom: 24px;
+}
+@media (max-width: 768px) {
+  .copyright-text{
+    font-size: 0.5em;
+  }
+}

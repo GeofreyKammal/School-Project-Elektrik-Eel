@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELEKTRIK EEL FESTIVAL</title>
+    <!--Style sheets-->
+    <link rel="stylesheet" href="stylesheet/general.css">
+    <link rel="stylesheet" href="stylesheet/main-page/body.css">
+    <link rel="stylesheet" href="stylesheet/main-page/header.css">
+    <!--End of Style sheets-->
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&family=Micro+5&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Micro+5&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Honk&family=Micro+5&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!--End of Fonts-->
+
+    
+  </head>
+  <body>
+    <div class="background-colour">
+      <header>
+        <div class="header">
+          <div class="title-container">
+            <p class="title-char">ELEKTRIK EEL FESTIVAL</p>
+          </div>
+          <div class="navbar-container">
+            <button onclick="scrollHome()" class="home-button">HOME</button>
+            <script>
+              function scrollHome() {
+                window.scrollTo(0, 0);
+              }
+            </script>
+
+            <button onclick="scrollPackage()" class="package-button">TRAVEL PACKAGES</button>
+            <script>
+              function scrollPackage() {
+                window.scrollTo(0, 4650);
+              }
+            </script>
+            
+            <button class="news-button">NEWS</button>
+            <button class="about-button">ABOUT US</button>
+            <button class="faq-button">FAQ</button>
+          </div>
+          <div class="ticket-container">
+            <button onclick="scrollTicket()" class="ticket-button">TICKET <img class="ticket-svg" src="vector/Ticket.svg" alt="ticket icon"></button>
+            <script>
+              function scrollTicket() {
+                window.scrollTo(0, 2500);
+              }
+            </script>
+          </div>
+        </div>
+      </header>
+
+      <div class="section-1">
+        <div class="image-container">
+          <div class="date-container-left">
+            <p class="date-text-left">22-11-2024</p>
+          </div>
+          <div class="photo-container">
+            <div class="mainImg-container">
+              <img class="main-image" src="Picture/mainImg.jpg" alt="blur picture with crowded people with GET READY TO PARTY WITH OVER 120 ARTIST text">
+              <p class="image-text">GET READY TO PARTY ! WITH OVER 120 ARTIST !</p>
+            </div>
+            <div class="second-image">
+              <div class="pic1-container">
+                <img class="pic1-image" src="Picture/secondPic1.png" alt="2 man playing guitar excitingly">
+              </div>
+              <div class="pic2-container">
+                <img class="pic2-image" src="Picture/secondPic2.png" alt="DJ control pad with a laptop">
+              </div>
+              <div class="pic3-container">
+                <img class="pic3-image" src="Picture/secondPic3.png" alt="DJ pad with blue neon lights">
+              </div>
+              <div class="pic4-container">
+                <img class="pic4-image" src="Picture/secondPic4.png" alt="picture with someone holding the phone while recording the concert">
+              </div>
+            </div>
+          </div>
+          <div class="date-container-right">
+            <p class="date-text-right">22-11-2024</p>
+          </div>
+        </div>
+        <div class="location-container">
+          <p class="location-text">ROYAL PARK, MELBOURNE, AUSTRALIA</p>   
+        </div>
+      </div>     
+      
+      <div class="section-2">
+        <div class="lineup-container">
+          <a href="./lineup.html">
+            <button class="lineup-button">LINE UP</button>
+          </a>
+        </div>
+      </div>
+
+      <div class="section-2a">
+        <img class="countdown-image" src="Picture/countdown-bg.jpg" alt="collages of concert pictures">
+        <div class="countBox-container">
+          <div class="countdownText-container">
+            <p class="countdown-text">COUNTDOWN TO ELEKTRIK EEL FESTIVAL</p>
+          </div>
+          <div class="countNumber-container">
+            <div class="day-container">
+              <p class="number-text" id="days">00</p>
+              <p class="day-text">Days</p>
+            </div>
+            <div class="colon-container">
+              <p class="colon-text">:</p>
+            </div>
+            <div class="hour-container">
+              <p class="number-text"  id="hours">00</p>
+              <p class="day-text">Hours</p>
+            </div>
+            <div class="colon-container">
+              <p class="colon-text">:</p>
+            </div>
+            <div class="minute-container">
+              <p class="number-text" id="minutes">00</p>
+              <p class="day-text">Minutes</p>
+            </div>
+            <div class="colon-container">
+              <p class="colon-text">:</p>
+            </div>
+            <div class="minute-container">
+              <p class="number-text" id="seconds">00</p>
+              <p class="day-text">Seconds</p>
+            </div>
+          </div>
+          <script src="countdown.js"></script>
+        </div>
+      </div>
+
+      <div class="section-3">
+        <p class="aftermovie-text">ELEKTRIK EEL #2023 AFTERMOVIE</p>
+        <a href="https://www.youtube.com/" target="_blank">
+          <div class="aftermovie-container">
+            <img class="aftermovie-image" src="Picture/aftermovie-image.jpg" alt="video link to the previous event of elektrik eel">
+            <button class="play-button"><img class="play-svg" src="vector/play.svg" alt="play icon"></button>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="background-colour2">
+      <div class="section-4">
+        <p class="purchase-text">BUY TICKETS NOW!</p>
+        <div class="purchase-container">
+          <div class="ticket1-container">
+            <div class="wrapper-card-category">
+              <p class="top-text">1 - DAY PASS</p>
+            </div>
+            <div class="wrapper-top">
+              <h1 class="card-ticket-title">SINGLE DAY</h1>
+              <p class="card-ticket-type">SINGLE DAY PASS</p>
+            </div>
+            <img class="divider" src="vector/divider.svg">
+            <div class="wrapper-bottom">
+              <p class="starts-from">STARTS FROM</p>
+              <div class="price">
+                <p class="price-currency">AUD</p>
+                <p class="price-value">$110</p>
+              </div>
+            </div>
+            <button class="buyticket-btn">BUY TICKET</button>
+          </div>
+
+          <div class="ticket2-container">
+            <div class="wrapper-card-category">
+              <p class="top-text">3 - DAY PASS</p>
+            </div>
+            <div class="wrapper-top">
+              <h1 class="card-ticket-title">EARLY BIRD</h1>
+              <p class="card-ticket-type">EARLY BIRD (3-DAYS)</p>
+            </div>
+            <img class="divider" src="vector/divider.svg">
+            <div class="wrapper-bottom">
+              <p class="starts-from">STARTS FROM</p>
+              <div class="price">
+                <p class="price-currency">AUD</p>
+                <p class="price-value">$205</p>
+              </div>
+            </div>
+            <button class="buyticket-btn">BUY TICKET</button>
+          </div>
+
+          <div class="ticket3-container">
+            <div class="wrapper-card-category">
+              <p class="top-text">3 - DAY PASS</p>
+            </div>
+            <div class="wrapper-top">
+              <h1 class="card-ticket-title">FULL PRICE</h1>
+              <p class="card-ticket-type">3 DAYS PASS</p>
+            </div>
+            <img class="divider" src="vector/divider.svg">
+            <div class="wrapper-bottom">
+              <p class="starts-from">STARTS FROM</p>
+              <div class="price">
+                <p class="price-currency">AUD</p>
+                <p class="price-value">$340</p>
+              </div>
+            </div>
+            <button class="buyticket-btn">BUY TICKET</button>
+          </div>
+        </div>
+        <p class="purchase-notes">*early bird price ends in August, when ticket costs for 3 days will change to full price.</p>
+      </div> 
+
+      <div class="section-5">
+        <div class="merchandise-text-container">
+          <p class="merchandise-text">MERCHANDISE<img class="shop-svg" src="vector/shop.svg"></p>
+        </div>
+        <div class="merchandise-container">
+          <div class="merchandise1-container">
+            <div class="merchandise-image-container">
+              <img class="merchandise-image" src="Picture/Rectangle 41.jpg" alt="hoodie merchandise"> 
+            </div>
+            <div class="merchandise-info-container">
+              <div class="product-info">
+                <h1 class="product-name">Hoodie</h1>
+                <p class="product-desc">Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p> 
+              </div>
+              <div class="product-price">
+                <p class="product-value">$32</p>
+                <button class="purchase-btn">ADD TO CART<img class="bag-svg" src="vector/bag.png"></button>
+              </div>   
+            </div>
+          </div>
+
+          <div class="merchandise2-container">
+            <div class="merchandise-image-container">
+              <img class="merchandise-image" src="Picture/Rectangle 41-1.jpg" alt="hat merchandise"> 
+            </div>
+            <div class="merchandise-info-container">
+              <div class="product-info">
+                <h1 class="product-name">Hats</h1>
+                <p class="product-desc">Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p> 
+              </div>
+              <div class="product-price">
+                <p class="product-value">$12</p>
+                <button class="purchase-btn">ADD TO CART<img class="bag-svg" src="vector/bag.png"></button>
+              </div>   
+            </div>
+          </div>
+          
+          <div class="merchandise3-container">
+            <div class="merchandise-image-container">
+              <img class="merchandise-image" src="Picture/Rectangle 41-2.jpg" alt="T-shirt merchandise"> 
+            </div>
+            <div class="merchandise-info-container">
+              <div class="product-info">
+                <h1 class="product-name">T-Shirt</h1>
+                <p class="product-desc">Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p> 
+              </div>
+              <div class="product-price">
+                <p class="product-value">$18</p>
+                <button class="purchase-btn">ADD TO CART<img class="bag-svg" src="vector/bag.png"></button>
+              </div>   
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-6">
+        <p class="get-there-text">HOW TO GET THERE ?</p>
+        <div class="location1-container">
+          <div class="map-container">
+            <img class="australia-svg" src="Picture/australia.png" alt="australia continent sketch">
+            <div class="map-text-container">
+              <p class="map-text">Access through google map :</p>
+              <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15890.759468783324!2d144.94588396728685!3d-37.78708644895308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65cd75d00a5cb%3A0xf04567605317da0!2sRoyal%20Park!5e0!3m2!1sen!2sau!4v1712560257871!5m2!1sen!2sau" width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>             
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="background-colour3">
+      <div class="section-7">
+        <p class="package-text">PACKAGE</p>
+        
+        <div class="package-container">
+          <div class="package1-container">
+            <div class="package-wrapper-top">
+              <h1 class="package-type">2(two) 3-Day Passes (GA/VIE)</h1>
+              <p class="package-desc">4 Days and 3 Nights stay at HILTON MELBOURNE</p>
+            </div>
+            <img class="package-divider-svg" src="vector/package-divider.svg">
+            <div class="package-wrapper-bottom">
+              <p class="starts-from-package">STARTS FROM</p>
+              <p class="price-currency-package">AUD</p>
+              <p class="price-value-package">$500</p>
+            </div>
+            <button class="learnMore-btn">LEARN MORE</button>
+          </div>
+
+          <div class="package2-container">
+            <div class="package-wrapper-top">
+              <h1 class="package-type">2(two) 3-Day Passes (GA/VIE)</h1>
+              <p class="package-desc">4 Days and 3 Nights stay at PULLMAN MELBOURNE</p>
+            </div>
+            <img class="package-divider-svg" src="vector/package-divider.svg">
+            <div class="package-wrapper-bottom">
+              <p class="starts-from-package">STARTS FROM</p>
+              <p class="price-currency-package">AUD</p>
+              <p class="price-value-package">$630</p>
+            </div>
+            <button class="learnMore-btn">LEARN MORE</button>
+          </div>
+
+          <div class="package3-container">
+            <div class="package-wrapper-top">
+              <h1 class="package-type">2(two) 3-Day Passes (GA/VIE)</h1>
+              <p class="package-desc">4 Days and 3 Nights stay at W MELBOURNE HOTEL</p>
+            </div>
+            <img class="package-divider-svg" src="vector/package-divider.svg">
+            <div class="package-wrapper-bottom">
+              <p class="starts-from-package">STARTS FROM</p>
+              <p class="price-currency-package">AUD</p>
+              <p class="price-value-package">$720</p>
+            </div>
+            <button class="learnMore-btn">LEARN MORE</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-8">
+        <p class="sponsor-text">SPONSOR</p>
+        <img class="sponsor-image" src="vector/sponsor.svg" alt="sposors logo">
+      </div>
+
+      <div class="page-divider"></div>
+
+      <hr class="footer-divider">
+
+      <div class="section-9">
+        <div class="footer-container">
+
+          <div class="left-footer">
+            <div class="upper-left-container">
+              <div class="product-container">
+                <p class="product-text">Product</p>
+                <button class="product-option">Features</button>
+                <button class="product-option">Pricing</button>
+                <button class="product-option">Case studies</button>
+                <button class="product-option">Reviews</button>
+                <button class="product-option">Updates</button>    
+              </div>
+    
+              <div class="company-container">
+                <p class=company-text>Company</p>
+                <button class="company-option">About</button>
+                <button class="company-option">Contact us</button>
+                <button class="company-option">Careers</button>
+                <button class="company-option">Culture</button>
+                <button class="company-option">Blog</button>
+              </div>
+    
+              <div class="support-container">
+                <p class="support-text">Support</p>
+                <button class="support-option">Getting started</button>
+                <button class="support-option">Help center</button>
+                <button class="support-option">Server status</button>
+                <button class="support-option">Report a bug</button>
+                <button class="support-option">Chat support</button>
+              </div>
+            </div>
+
+            <div class="lower-left-container">
+              <div class="socmed-container">
+                <div class="instagram-container">
+                  <a href="https://www.instagram.com/" target="_blank">
+                    <img src="vector/instagram.svg" class="socmed-svg" alt="instagram icon">
+                  </a>
+                  <div class="tooltip">Instagram</div>
+                </div>
+                <div class="facebook-container">
+                  <a href="https://www.facebook.com/" target="_blank">
+                    <img src="vector/facebook.svg" class="socmed-svg" alt="facebook icon">
+                  </a>
+                  <div class="tooltip">Facebook</div>
+                </div>
+                <div class="youtube-container">
+                  <a href="https://www.youtube.com/" target="_blank">
+                    <img src="vector/youtube.svg" class="socmed-svg" alt="youtube-icon">
+                  </a>
+                  <div class="tooltip">Youtube</div>
+                </div>
+                <div class="tiktok-container">
+                  <a href="https://www.tiktok.com/" target="_blank">
+                    <img src="vector/tiktok.svg" class="socmed-svg" alt="tiktok icon">
+                  </a>
+                  <div class="tooltip">Tiktok</div>
+                </div>
+                <div class="twitter-container">
+                  <a href="https://twitter.com/" target="_blank">
+                    <img src="vector/twitter.svg" class="socmed-svg" alt="twitter icon">
+                  </a>
+                  <div class="tooltip">X</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="subscribe-container">
+          <p class="subscribe-text">Subscribe to our newsletter</p>
+          <p class="subscribe-desc">Subscribe so you won't miss any new information about this event!</p>
+          <input class="email-input" type="email" placeholder="Enter your email">
+          <button class="subscribe-button">Subscribe</button>
+        </div>
+       
+      </div>
+    </div>
+    <div class="background-colour2">
+      <hr class="close-line">
+      <p class="copyright-text">Copyright © 2024 ELEKTRIK EEL FESTIVAL</p>
+    </div>
+  </body>
+</html>

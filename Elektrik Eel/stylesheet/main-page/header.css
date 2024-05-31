@@ -1,0 +1,84 @@
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 80px;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 20%)
+}
+.title-container{
+  margin-left: 60px;
+  width: 144px;
+}
+.title-char{
+  font-family: honk;
+  font-size: 24px;
+  text-align: center;
+}
+.navbar-container{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.home-button,
+.package-button,
+.news-button,
+.about-button,
+.faq-button{
+  margin-left: 21px;
+  margin-right: 21px;
+  border: none;
+  color: #efefef;
+  background: none;
+  font-family: "micro 5";
+  font-size: 28px;
+  transition: font-size 0.50s;
+  cursor: pointer;
+}
+.faq-button{
+  letter-spacing: 4px;
+}
+.home-button:hover,
+.package-button:hover,
+.news-button:hover,
+.about-button:hover,
+.faq-button:hover{
+  font-size: 32px;
+}
+
+.home-button{
+  text-decoration: underline #efefef 3px ;
+}
+
+.ticket-container{
+  margin-right: 60px;
+  width: 124px;
+  height: 36px;
+}
+.ticket-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-family: "black ops one";
+  font-size: 16px;
+  width: 124px;
+  height: 36px;
+  border-radius: 8px;
+  gap: 8px;
+  padding: 0px 16px 0px 28px;
+  transition:  0.4s;
+  cursor: pointer;
+  
+}
+.ticket-svg{
+  width: 24px;
+  height: 24px;
+}
+.ticket-button:hover{
+margin-top: 2px;
+}

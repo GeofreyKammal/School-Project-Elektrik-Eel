@@ -1,0 +1,215 @@
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 13.6vh;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 20%)
+}
+@media (max-width: 992px) {
+  .header{
+    height: 11.5vh;
+  }
+}
+
+.title-container{
+  margin-left: 3.75em;
+  width: 144px;
+}
+.title-char{
+  font-family: honk;
+  font-size: 1.25em;
+  text-align: center;
+}
+.navbar-container{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.home-button,
+.package-button,
+.news-button,
+.about-button,
+.faq-button,
+.lineup-button{
+  margin-left: 21px;
+  margin-right: 21px;
+  border: none;
+  color: #efefef;
+  background: none;
+  font-family: "micro 5";
+  font-size: 1.75em;
+  transition: font-size 0.50s;
+  text-wrap: nowrap;
+  cursor: pointer;
+}
+.faq-button{
+  letter-spacing: 0.25em;
+}
+.home-button:hover,
+.package-button:hover,
+.news-button:hover,
+.about-button:hover,
+.faq-button:hover,
+.lineup-button:hover{
+  font-size: 2em;
+}
+
+.lineup-button{
+  text-decoration: underline #efefef 3px ;
+}
+
+.ticket-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 3.75em;
+  width: 7.75em;
+  height: 2.25em;
+}
+.ticket-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-family: "black ops one";
+  font-size: 1em;
+  width: 100%;
+  height: 2.25em;
+  border-radius: 8px;
+  gap: 8px;
+  padding: 0px 16px 0px 28px;
+  transition:  0.4s;
+  cursor: pointer;
+  
+}
+.ticket-svg{
+  width: 24px;
+  height: 24px;
+}
+.ticket-button:hover{
+margin-top: 0.125em;
+}
+.hamburger-button{
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media (min-width: 992px){
+  .hamburger-button{
+    display: none;
+  }
+}
+@media (max-width: 992px){
+  .navbar-container{
+    display: none;
+  }
+  .header{
+    justify-content: space-between;
+    padding-right: 2em;
+  }
+  .ticket-button{
+    margin-right: 12px;
+  }
+  .title-container{
+    margin-left: 2em;
+  }
+}
+@media (max-width: 768px) {
+  .ticket-container{
+    width: 8em;
+    height: 1.25em;
+    font-size: 0.8125em;
+  }
+  .ticket-button{
+    padding: 0px 8px 0px 16px;
+
+  }
+  .ticket-svg{
+    width: 16px;
+  }
+  .title-char{
+    font-size: 1em;
+    width: 68%;
+  }
+  .title-container{
+    margin-left: 1em;
+  }
+  .header{
+    padding-right: 1em;
+  }
+  .hamburger-svg{
+    width: 2em;
+  }
+}
+
+.hamburger{
+  background-color: #0a0a0a;
+  padding-left: 2em;
+  padding-right: 2em;
+  position: fixed;
+  z-index: 200;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transform: translate(100%);
+  transition: 600ms ;
+}
+
+
+.hamburger.active{
+  transform: translate(0);
+}
+
+.close-button-hamburger{
+  background: none;
+  border: none;
+  position: absolute;
+  right: 2%;
+  top: 2%;
+  cursor: pointer;
+}
+.close-hamburger-svg{
+  width: 2.75em;
+}
+.nav-popup{
+  display: flex;
+  flex-direction: column;
+  margin-top: 16vh;
+  gap: 6vh;
+}
+.nav-hamburger{
+  background: none;
+  color: #efefef;
+  border: none;
+  font-size: 2em;
+  cursor: pointer;
+}
+#lineupButton{
+  text-decoration: underline;
+}
+
+@media (min-width: 992px) {
+  .hamburger{
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav-hamburger{
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-hamburger{
+    font-size: 2em;
+  }
+}
+
